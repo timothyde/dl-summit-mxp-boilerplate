@@ -8,13 +8,6 @@ export const dynamic = "force-dynamic";
 export async function POST(req: Request) {
   const { uuid } = await req.json();
 
-  // if there's no userId provided, return http status 400
-  if (!uuid) {
-    return new Response(JSON.stringify({ error: "Bad request" }), {
-      status: 400,
-    });
-  }
-
   const cookies = new RequestCookies(req.headers) as any;
   const supabase = createRouteHandlerClient<Database>({
     cookies: () => cookies,
