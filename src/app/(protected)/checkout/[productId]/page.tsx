@@ -67,7 +67,7 @@ export default async function Checkout({
               </p>
               <h2 className="text-gray-900 text-xl font-bold pb-6">
                 {product.name}, {product.price}{" "}
-                {product.isMonthly ? "pro Monat." : "einmalig."}
+                {product.isMonthly ? "per month." : "once."}
               </h2>
               <div className="flex flex-col items-start gap-4">
                 <p className="text-md text-gray-600">
