@@ -1,7 +1,7 @@
 export default function TOS() {
   return (
     <>
-      <h1 className="text-white text-6xl font-black py-8 pr-24">
+      <h1 className="text-gray-900 text-6xl font-black py-8 pr-24">
         Terms Of Service
       </h1>
       <p className="pb-8">
