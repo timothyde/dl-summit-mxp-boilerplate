@@ -1,7 +1,7 @@
 export default function Privacy() {
   return (
     <>
-      <h1 className="text-white text-6xl font-black py-8">Privacy Policy</h1>
+      <h1 className="text-gray-900 text-6xl font-black py-8">Privacy Policy</h1>
       <p>
         Nisi ullamco aliquip ad tempor irure duis. Mollit minim veniam velit
         aute enim incididunt occaecat cupidatat irure. Sit ipsum cupidatat ut
