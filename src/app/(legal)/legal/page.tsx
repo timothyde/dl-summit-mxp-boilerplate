@@ -1,7 +1,7 @@
 export default function Legal() {
   return (
     <>
-      <h1 className="text-white text-6xl font-black py-8">Legal Information</h1>
+      <h1 className="text-gray-900 text-6xl font-black py-8">Legal Information</h1>
       <p>
         Id veniam nulla esse sint nulla voluptate. Pariatur velit culpa
         reprehenderit quis. Sint excepteur amet velit velit veniam esse. Ullamco
