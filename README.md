@@ -45,7 +45,7 @@ PADDLE_PUBLIC_KEY=
 
 ### Creating your Supabase instance
 
-Create your organization and project at [Supbase](https://supabase.com/). Copy over the `anon` key, the `service_role` secret and the project URL into your newly created .env file.
+Create your organization and project at [Supbase](https://supabase.com/). Copy over the `anon` key, the `service_role` secret and the project URL into your newly created .env file. Under `Authentication > URL Configuration`, add `http://localhost:3000/auth/callback` to the redirect URLs.
 
 Once that's done, go the SQL editor and execute the following query. This is a slight modification of the `User Management Starter` template and adds a credits column.
 
